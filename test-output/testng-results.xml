@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="49" passed="46" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-27T14:16:21 GMT-04:00" name="Default suite" finished-at="2023-07-27T14:16:59 GMT-04:00" duration-ms="37178">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-07-27T14:16:21 GMT-04:00" name="Default test" finished-at="2023-07-27T14:16:59 GMT-04:00" duration-ms="37178">
+      <class name="TestRunner.runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:21 GMT-04:00" name="setUpClass" finished-at="2023-07-27T14:16:22 GMT-04:00" duration-ms="1039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@55e3b64d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:22 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:31 GMT-04:00" duration-ms="8457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis program module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:31 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:32 GMT-04:00" duration-ms="1472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating User able to retrieve all programs with valid endpoint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis program module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:32 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:33 GMT-04:00" duration-ms="263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating User able to retrieve program with valid programID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis program module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:33 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:33 GMT-04:00" duration-ms="438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating user able to update a program with valid programID and Payload"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis program module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:33 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:34 GMT-04:00" duration-ms="416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating user able to update a program with valid programName and Payload"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis program module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:34 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:34 GMT-04:00" duration-ms="313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:34 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:35 GMT-04:00" duration-ms="1663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:35 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:36 GMT-04:00" duration-ms="354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User tries to update a user with valid User ID and request body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:36 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:37 GMT-04:00" duration-ms="725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User tries to get User info by ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:37 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:37 GMT-04:00" duration-ms="424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:37 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:38 GMT-04:00" duration-ms="1324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating User able to retrieve all Assignment with valid endpoint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:38 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:39 GMT-04:00" duration-ms="283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating User able to retrieve Assignment by id with valid endpoint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:39 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:39 GMT-04:00" duration-ms="416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating User able to retrieve Assignment by batch with valid endpoint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:39 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:40 GMT-04:00" duration-ms="529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Assignment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:40 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:40 GMT-04:00" duration-ms="330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:40 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:40 GMT-04:00" duration-ms="282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating User able to retrieve Assignment by Invalidid with valid endpoint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:40 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:40 GMT-04:00" duration-ms="262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating User able to retrieve Assignment by Invalidbatch with valid endpoint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:40 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:41 GMT-04:00" duration-ms="624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Assignment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:41 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:41 GMT-04:00" duration-ms="285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:41 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:42 GMT-04:00" duration-ms="1085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating User able to retrieve all AssignmentSubmission with valid endpoint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:42 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:43 GMT-04:00" duration-ms="580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating User able to retrieve AssignmentSubmission by StudenID with valid endpoint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:43 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:44 GMT-04:00" duration-ms="720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating User able to retrieve all AssignmentSubmission with valid endpoint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:44 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:44 GMT-04:00" duration-ms="246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating User able to retrieve AssignmentSubmission by BatchID with valid endpoint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:44 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:44 GMT-04:00" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating User able to retrieve AssignmentSubmission byID with valid endpoint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:44 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:45 GMT-04:00" duration-ms="434" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["ResubmissionAssignment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [400]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [400]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1418)
+at org.testng.Assert.assertEquals(Assert.java:1448)
+at stepDefinition.FAssignmentSubmission_SD.user_receives_created_status_with_response_body(FAssignmentSubmission_SD.java:140)
+at ✽.User receives 200 Created Status with response body for assignmentSubmission(file:///C:/Users/Viru/Desktop/JavaPrograms/RestAssureApi/src/test/resources/featureFiles/05LMS_AssignmentSubmission.feature:47)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:45 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:45 GMT-04:00" duration-ms="478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Grade Assignment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:45 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:45 GMT-04:00" duration-ms="257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating User able to retrieve AssignmentSubmission by GradeStudentID with valid endpoint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:45 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:46 GMT-04:00" duration-ms="194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating User able to retrieve AssignmentSubmission by GradeBatchID with valid endpoint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:46 GMT-04:00" duration-ms="594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating User able to retrieve AssignmentSubmission by StudenID with valid endpoint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:47 GMT-04:00" duration-ms="319" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating User able to retrieve AssignmentSubmission by BatchID with valid endpoint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [404] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [404] but found [200]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1418)
+at org.testng.Assert.assertEquals(Assert.java:1448)
+at stepDefinition.FAssignmentSubmission_SD.user_receives_created_status_with_response_body(FAssignmentSubmission_SD.java:140)
+at ✽.User receives 404 Created Status with response body for assignmentSubmission(file:///C:/Users/Viru/Desktop/JavaPrograms/RestAssureApi/src/test/resources/featureFiles/05LMS_AssignmentSubmission.feature:88)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:47 GMT-04:00" duration-ms="465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating User able to retrieve AssignmentSubmission byID with valid endpoint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:47 GMT-04:00" duration-ms="352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating User able to retrieve AssignmentSubmission by GradeStudentID with valid endpoint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:48 GMT-04:00" duration-ms="273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating User able to retrieve AssignmentSubmission by GradeBatchID with valid endpoint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:48 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:49 GMT-04:00" duration-ms="1329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:49 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:49 GMT-04:00" duration-ms="405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:49 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:50 GMT-04:00" duration-ms="527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:50 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:52 GMT-04:00" duration-ms="1914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:52 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:52 GMT-04:00" duration-ms="244" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Grade Assignment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [400] but found [200]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1418)
+at org.testng.Assert.assertEquals(Assert.java:1448)
+at stepDefinition.FAssignmentSubmission_SD.user_receives_created_status_with_response_body(FAssignmentSubmission_SD.java:140)
+at ✽.User receives 400 Created Status with response body for assignmentSubmission(file:///C:/Users/Viru/Desktop/JavaPrograms/RestAssureApi/src/test/resources/featureFiles/05LMS_AssignmentSubmission.feature:163)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:52 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:52 GMT-04:00" duration-ms="275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Grade Assignment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test LMS Apis batch module with rest assured library and cucumber framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:52 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:53 GMT-04:00" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a user with valid assignmentsubmission ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete ID's"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:53 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:53 GMT-04:00" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a user with valid assignment ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete ID's"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:53 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:53 GMT-04:00" duration-ms="636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a user with valid user ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete ID's"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:53 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:54 GMT-04:00" duration-ms="208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a program with valid batch ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete ID's"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:54 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:54 GMT-04:00" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a program with valid program ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete ID's"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:54 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:54 GMT-04:00" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a user with valid assignmentsubmission ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete ID's"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:54 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:54 GMT-04:00" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a user with valid assignment ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete ID's"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:54 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:55 GMT-04:00" duration-ms="742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a user with valid user ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete ID's"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:55 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:55 GMT-04:00" duration-ms="194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a program with valid batch ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete ID's"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:55 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T14:16:55 GMT-04:00" duration-ms="208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to delete a program with valid program ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete ID's"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.runner@7d3e8655]" started-at="2023-07-27T14:16:55 GMT-04:00" name="tearDownClass" finished-at="2023-07-27T14:16:59 GMT-04:00" duration-ms="3159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
