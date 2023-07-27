@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>46/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 27 14:16:21 EDT 2023</td>
+<td>Started on:</td><td>Thu Jul 27 14:25:06 EDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>37 seconds (37178 ms)</td>
+<tr><td>Total time:</td><td>45 seconds (45642 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,6 +76,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "ResubmissionAssignment", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1448)
+	at stepDefinition.FAssignmentSubmission_SD.user_receives_created_status_with_response_body(FAssignmentSubmission_SD.java:140)
+	at ✽.User receives 200 Created Status with response body for assignmentSubmission(file:///C:/Users/Viru/Desktop/JavaPrograms/RestAssureApi/src/test/resources/featureFiles/05LMS_AssignmentSubmission.feature:47)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1614785197", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1614785197'><pre>java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1448)
+	at stepDefinition.FAssignmentSubmission_SD.user_receives_created_status_with_response_body(FAssignmentSubmission_SD.java:140)
+	at ✽.User receives 200 Created Status with response body for assignmentSubmission(file:///C:/Users/Viru/Desktop/JavaPrograms/RestAssureApi/src/test/resources/featureFiles/05LMS_AssignmentSubmission.feature:47)
+</pre></div></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
 <td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Grade Assignment", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
 <td><div><pre>java.lang.AssertionError: expected [400] but found [200]
 	at org.testng.Assert.fail(Assert.java:110)
@@ -86,8 +110,8 @@ function toggleAllBoxes() {
 	at org.testng.Assert.assertEquals(Assert.java:1448)
 	at stepDefinition.FAssignmentSubmission_SD.user_receives_created_status_with_response_body(FAssignmentSubmission_SD.java:140)
 	at ✽.User receives 400 Created Status with response body for assignmentSubmission(file:///C:/Users/Viru/Desktop/JavaPrograms/RestAssureApi/src/test/resources/featureFiles/05LMS_AssignmentSubmission.feature:163)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1781593777", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1781593777'><pre>java.lang.AssertionError: expected [400] but found [200]
+</pre></div><a href='#' onClick='toggleBox("stack-trace951517261", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace951517261'><pre>java.lang.AssertionError: expected [400] but found [200]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
@@ -110,8 +134,8 @@ function toggleAllBoxes() {
 	at org.testng.Assert.assertEquals(Assert.java:1448)
 	at stepDefinition.FAssignmentSubmission_SD.user_receives_created_status_with_response_body(FAssignmentSubmission_SD.java:140)
 	at ✽.User receives 404 Created Status with response body for assignmentSubmission(file:///C:/Users/Viru/Desktop/JavaPrograms/RestAssureApi/src/test/resources/featureFiles/05LMS_AssignmentSubmission.feature:88)
-</pre></div><a href='#' onClick='toggleBox("stack-trace467742213", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace467742213'><pre>java.lang.AssertionError: expected [404] but found [200]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1440250739", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1440250739'><pre>java.lang.AssertionError: expected [404] but found [200]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
@@ -120,30 +144,6 @@ function toggleAllBoxes() {
 	at org.testng.Assert.assertEquals(Assert.java:1448)
 	at stepDefinition.FAssignmentSubmission_SD.user_receives_created_status_with_response_body(FAssignmentSubmission_SD.java:140)
 	at ✽.User receives 404 Created Status with response body for assignmentSubmission(file:///C:/Users/Viru/Desktop/JavaPrograms/RestAssureApi/src/test/resources/featureFiles/05LMS_AssignmentSubmission.feature:88)
-</pre></div></td>
-<td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "ResubmissionAssignment", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
-<td><div><pre>java.lang.AssertionError: expected [200] but found [400]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:1418)
-	at org.testng.Assert.assertEquals(Assert.java:1448)
-	at stepDefinition.FAssignmentSubmission_SD.user_receives_created_status_with_response_body(FAssignmentSubmission_SD.java:140)
-	at ✽.User receives 200 Created Status with response body for assignmentSubmission(file:///C:/Users/Viru/Desktop/JavaPrograms/RestAssureApi/src/test/resources/featureFiles/05LMS_AssignmentSubmission.feature:47)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2065510245", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2065510245'><pre>java.lang.AssertionError: expected [200] but found [400]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:1418)
-	at org.testng.Assert.assertEquals(Assert.java:1448)
-	at stepDefinition.FAssignmentSubmission_SD.user_receives_created_status_with_response_body(FAssignmentSubmission_SD.java:140)
-	at ✽.User receives 200 Created Status with response body for assignmentSubmission(file:///C:/Users/Viru/Desktop/JavaPrograms/RestAssureApi/src/test/resources/featureFiles/05LMS_AssignmentSubmission.feature:47)
 </pre></div></td>
 <td>0</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
@@ -162,84 +162,9 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
 <tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve all Assignment with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
-<td></td>
-<td>1</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
-<td></td>
-<td>1</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a user with valid assignmentsubmission ID", "Delete ID's"</td>
-<td></td>
-<td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a user with valid assignmentsubmission ID", "Delete ID's"</td>
-<td></td>
-<td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis program module with rest assured library and cucumber framework"</td>
-<td></td>
-<td>8</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
 <td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a program with valid program ID", "Delete ID's"</td>
 <td></td>
 <td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve AssignmentSubmission by StudenID with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
-<td></td>
-<td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a user with valid user ID", "Delete ID's"</td>
-<td></td>
-<td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a program with valid batch ID", "Delete ID's"</td>
-<td></td>
-<td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve AssignmentSubmission by StudenID with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
-<td></td>
-<td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
-<td></td>
-<td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
-<td></td>
-<td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
-<td></td>
-<td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a user with valid assignment ID", "Delete ID's"</td>
-<td></td>
-<td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
-<td></td>
-<td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
-<td></td>
-<td>1</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
 <tr>
 <td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve Assignment by Invalidid with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
@@ -247,32 +172,12 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
 <tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve Assignment by id with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis program module with rest assured library and cucumber framework"</td>
 <td></td>
-<td>0</td>
+<td>11</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
 <tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
-<td></td>
-<td>1</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve Assignment by Invalidbatch with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
-<td></td>
-<td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating user able to update a program with valid programID and Payload", "Test LMS Apis program module with rest assured library and cucumber framework"</td>
-<td></td>
-<td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User tries to update a user with valid User ID and request body", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
-<td></td>
-<td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User tries to get User info by ID", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve program with valid programID", "Test LMS Apis program module with rest assured library and cucumber framework"</td>
 <td></td>
 <td>0</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
@@ -282,9 +187,39 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
 <tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User tries to get User info by ID", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
 <td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve all AssignmentSubmission with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
 <td></td>
 <td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve AssignmentSubmission by GradeBatchID with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve AssignmentSubmission by GradeStudentID with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>1</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
 <tr>
 <td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a program with valid program ID", "Delete ID's"</td>
@@ -292,12 +227,7 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
 <tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve all programs with valid endpoint", "Test LMS Apis program module with rest assured library and cucumber framework"</td>
-<td></td>
-<td>1</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve AssignmentSubmission by GradeStudentID with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
 <td></td>
 <td>0</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
@@ -307,17 +237,12 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
 <tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve program with valid programID", "Test LMS Apis program module with rest assured library and cucumber framework"</td>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a user with valid user ID", "Delete ID's"</td>
 <td></td>
 <td>0</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
 <tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve AssignmentSubmission byID with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
-<td></td>
-<td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve AssignmentSubmission by GradeBatchID with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Grade Assignment", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
 <td></td>
 <td>0</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
@@ -327,32 +252,27 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
 <tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Assignment", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a user with valid assignmentsubmission ID", "Delete ID's"</td>
 <td></td>
 <td>0</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
 <tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve all Assignment with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>2</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve all programs with valid endpoint", "Test LMS Apis program module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>2</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve AssignmentSubmission byID with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
 <td></td>
 <td>0</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
 <tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Assignment", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
-<td></td>
-<td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve AssignmentSubmission by GradeBatchID with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
-<td></td>
-<td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
-<td></td>
-<td>0</td>
-<td>TestRunner.runner@7d3e8655</td></tr>
-<tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve AssignmentSubmission by GradeStudentID with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating user able to update a program with valid programID and Payload", "Test LMS Apis program module with rest assured library and cucumber framework"</td>
 <td></td>
 <td>0</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
@@ -362,12 +282,47 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
 <tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a user with valid assignmentsubmission ID", "Delete ID's"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve AssignmentSubmission by GradeBatchID with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
 <td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve all AssignmentSubmission with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
 <td></td>
 <td>1</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
 <tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Grade Assignment", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a user with valid assignment ID", "Delete ID's"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve Assignment by Invalidbatch with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a program with valid batch ID", "Delete ID's"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>1</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User tries to update a user with valid User ID and request body", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
 <td></td>
 <td>0</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
@@ -377,12 +332,57 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
 <tr>
-<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a user with valid assignment ID", "Delete ID's"</td>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve AssignmentSubmission by StudenID with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve Assignment by id with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve AssignmentSubmission by GradeStudentID with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Assignment", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Assignment", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
 <td></td>
 <td>0</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
 <tr>
 <td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Grade Assignment", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating User able to retrieve AssignmentSubmission by StudenID with valid endpoint", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Test LMS Apis batch module with rest assured library and cucumber framework"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.runner@7d3e8655</td></tr>
+<tr>
+<td title='TestRunner.runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to delete a user with valid assignment ID", "Delete ID's"</td>
 <td></td>
 <td>0</td>
 <td>TestRunner.runner@7d3e8655</td></tr>
