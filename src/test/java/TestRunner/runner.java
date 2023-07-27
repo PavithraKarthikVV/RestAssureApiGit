@@ -23,9 +23,7 @@ import io.cucumber.testng.CucumberOptions;
 						
 				return super.scenarios();
 		    }
-//			public static String url=ConfigProperty.url;
-//			public static String username=ConfigProperty.username;
-//			public static String password=ConfigProperty.password;
+
 	
 
 
